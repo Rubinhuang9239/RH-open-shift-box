@@ -1,0 +1,90 @@
+html, body{
+    height: 100%;
+}
+
+#app{
+    background:
+        linear-gradient(
+                            90deg,
+                            #F6F6F6 18px,
+                            transparent 1%
+                        ) 
+        center,
+		linear-gradient(
+                            0deg,
+                            #F6F6F6 18px,
+                            transparent 1%
+                        )
+        center,
+        #AEAEAE;
+	background-size: 20px 20px;
+    background-position: 0px -2px;
+    height: 100%;
+    position: relative;
+}
+
+#app *{
+    border-radius: 0px;
+    font-family: OpenSans, Arial, Helvetica, sans-serif;
+}
+
+.open-shift-container{
+    background-color:#FFF;
+    box-shadow: 0px 2px 5.8px 0.2px rgba(80, 80, 80, 0.38);
+    height: 165px;
+    padding: 0px;
+    position: relative;
+    transform: translateY(200px);
+}
+
+.open-shift-container{
+    background-color:#FEFEFE;
+    box-shadow: 0px 2px 5.8px 0.2px rgba(80, 80, 80, 0.38);
+    height: 165px;
+    padding: 0px;
+    position: relative;
+    transform: translateY(200px);
+    display: flex;
+    flex-direction: column;
+}
+
+.open-shift-container .content{
+    border: solid 1px #BEBEBE;
+    border-top: none;
+    flex: 1;
+}
+
+.redhat-red-block{
+    background-color: #CC0000;
+}
+
+.redhat-nav{
+    border: none;
+    width: 100%;
+    height: 48px;
+    min-height: 48px;
+    padding: 14px 10px 13px 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.redhat-nav p{
+    color: #FFF;
+    height: 100%;
+    line-height: 21px;
+    font-size: 11px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.redhat-nav-title{
+    flex: auto;
+}
+
+.counter{
+    width: 27px;
+    text-align: center;
+    background: rgba(0,0,0,0.2);
+}
+
