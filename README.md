@@ -1,4 +1,4 @@
-# empty-project
+# Open ShiftBox
 
 Open ShiftBox UI.
 
@@ -14,20 +14,18 @@ First install dependencies:
 npm install
 ```
 
+To create a development / production build:
+
+```sh
+#DEV
+npm run build-dev
+
+#PROD
+npm run build-prod
+```
+
 Run with Webpack Dev Server 👈
 
 ```sh
 npm start
-```
-
-To create a production build:
-
-```sh
-npm run build-prod
-```
-
-To create a development build:
-
-```sh
-npm run build-dev
 ```
